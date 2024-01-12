@@ -25,7 +25,6 @@ function App() {
             <div className='tweet'>
               <Profil photo="src/assets/images/Profile-Photo.png" />
               <textarea className={"bien"} type="text" placeholder='What’s happening?' />
-
             </div>
             <div className='top-tweet'>
               <div className='tweet-editor-action'>
@@ -41,10 +40,8 @@ function App() {
             </div>
           </div>
           <div>
-            <div>
+            <div className='tweets'>
               <Profil photo="src/assets/images/image 1.png" />
-            </div>
-            <div>
               <h5>CNN</h5>
               <Icones icones="src/assets/images/Verified.svg" />
             </div>
@@ -60,10 +57,8 @@ function App() {
             </div>
           </div>
           <div>
-            <div>
+            <div className='tweets'>
               <Profil photo="src/assets/images/Tweet-Profile-Photo.png" />
-            </div>
-            <div>
               <h5>The New York Times</h5>
               <Icones icones="src/assets/images/Verified.svg" />
             </div>

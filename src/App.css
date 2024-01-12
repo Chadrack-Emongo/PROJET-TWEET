@@ -68,3 +68,6 @@ textarea{
   height: 50px;
   outline: none;
 }
+.tweets{
+  display: flex;
+}
