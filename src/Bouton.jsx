@@ -1,5 +1,5 @@
 export function Bouton(props){
     return(
-        <button>Tweet</button>
+        <button className="button-tweet">Tweet</button>
     )
 }
