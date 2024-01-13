@@ -21,13 +21,13 @@ function App() {
             <h3>Home</h3>
             <Icones icones="src/assets/images/Timeline-Prop.svg" />
           </div>
-          <div className='tweet-editor'>
-            <div className='tweet'>
+          <div className='ml-6 mr-4 pt-9 bp-1'>
+            <div className='flex'>
               <Profil photo="src/assets/images/Profile-Photo.png" />
-              <textarea className={"bien"} type="text" placeholder='What’s happening?' />
+              <textarea className="rounded-1xl text" type="text" placeholder='What’s happening?' />
             </div>
-            <div className='top-tweet'>
-              <div className='tweet-editor-action'>
+            <div className='flex'>
+              <div className='flex'>
                 <Icones icones="src/assets/images/Media.svg" />
                 <Icones icones="src/assets/images/Gif.svg" />
                 <Icones icones="src/assets/images/Poll.svg" />
@@ -49,7 +49,7 @@ function App() {
         reached with the European Union to ease Trump-era tariffs 
         on aluminum and steel as a major breakthrough that would serve to both strengthen 
         the US steel industry and combat the global climate crisis."/>
-            <div>
+            <div className="flex gap-20">
               <Icones icones="src/assets/images/Reply.svg" />
               <Icones icones="src/assets/images/Retweet.svg" />
               <Icones icones="src/assets/images/React.svg" />
@@ -69,7 +69,7 @@ function App() {
               <Profil photo="src/assets/images/Img.png" />
             </div>
             <div>
-              <div>
+              <div className="flex gap-20">
                 <Icones icones="src/assets/images/Reply.svg" />
                 <Icones icones="src/assets/images/Retweet.svg" />
                 <Icones icones="src/assets/images/React.svg" />

@@ -71,3 +71,7 @@ textarea{
 .tweets{
   display: flex;
 }
+
+/* .tweet-action {
+  justify-content: space-between;
+} */
