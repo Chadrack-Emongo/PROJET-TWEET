@@ -75,3 +75,10 @@ textarea{
 /* .tweet-action {
   justify-content: space-between;
 } */
+
+textarea{
+  color: white;
+  background-color: black;
+  height: 50px;
+  width: 90%;
+}

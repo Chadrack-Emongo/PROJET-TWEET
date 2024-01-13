@@ -21,10 +21,11 @@ function App() {
             <h3>Home</h3>
             <Icones icones="src/assets/images/Timeline-Prop.svg" />
           </div>
-          <div className='ml-6 mr-4 pt-9 bp-1'>
+          <form action="get">
+          <div className='ml-6 mr-4 pt-9 bp-1 '>
             <div className='flex'>
               <Profil photo="src/assets/images/Profile-Photo.png" />
-              <textarea className="rounded-1xl text" type="text" placeholder='What’s happening?' />
+              <textarea className="textarea" type="text" placeholder='What’s happening?' />
             </div>
             <div className='flex'>
               <div className='flex'>
@@ -39,6 +40,7 @@ function App() {
               </div>
             </div>
           </div>
+          </form>
           <div>
             <div className='tweets'>
               <Profil photo="src/assets/images/image 1.png" />
