@@ -79,6 +79,8 @@ textarea{
 textarea{
   color: white;
   background-color: black;
-  height: 50px;
+  height: 40px;
   width: 90%;
+  border: none;
+  margin-bottom: 20px;
 }

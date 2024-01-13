@@ -22,24 +22,24 @@ function App() {
             <Icones icones="src/assets/images/Timeline-Prop.svg" />
           </div>
           <form action="get">
-          <div className='ml-6 mr-4 pt-9 bp-1 '>
-            <div className='flex'>
-              <Profil photo="src/assets/images/Profile-Photo.png" />
-              <textarea className="textarea" type="text" placeholder='What’s happening?' />
-            </div>
-            <div className='flex'>
+            <div className='ml-6 mr-4 pt-9 bp-1 '>
               <div className='flex'>
-                <Icones icones="src/assets/images/Media.svg" />
-                <Icones icones="src/assets/images/Gif.svg" />
-                <Icones icones="src/assets/images/Poll.svg" />
-                <Icones icones="src/assets/images/Emoji.svg" />
-                <Icones icones="src/assets/images/Schedule.svg" />
+                <Profil photo="src/assets/images/Profile-Photo.png" />
+                <textarea className="textarea" type="text" placeholder='What’s happening?' />
               </div>
-              <div>
-                <Bouton />
+              <div className="flex gap-20">
+                <div className='flex gap-5'>
+                  <Icones icones="src/assets/images/Media.svg" />
+                  <Icones icones="src/assets/images/Gif.svg" />
+                  <Icones icones="src/assets/images/Poll.svg" />
+                  <Icones icones="src/assets/images/Emoji.svg" />
+                  <Icones icones="src/assets/images/Schedule.svg" />
+                </div>
+                <div>
+                  <Bouton />
+                </div>
               </div>
             </div>
-          </div>
           </form>
           <div>
             <div className='tweets'>
