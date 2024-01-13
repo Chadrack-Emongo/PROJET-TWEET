@@ -22,12 +22,12 @@ function App() {
             <Icones icones="src/assets/images/Timeline-Prop.svg" />
           </div>
           <form action="get">
-            <div className='ml-6 mr-4 pt-9 bp-1 '>
+            <div className='ml-6 mr-4 pt-9 bp-1' class="border border-indigo-600...">
               <div className='flex'>
                 <Profil photo="src/assets/images/Profile-Photo.png" />
                 <textarea className="textarea" type="text" placeholder='What’s happening?' />
               </div>
-              <div className="flex gap-20">
+              <div className="flex gap-80">
                 <div className='flex gap-5'>
                   <Icones icones="src/assets/images/Media.svg" />
                   <Icones icones="src/assets/images/Gif.svg" />
@@ -41,7 +41,7 @@ function App() {
               </div>
             </div>
           </form>
-          <div>
+          <div class="border border-indigo-600...">
             <div className='tweets'>
               <Profil photo="src/assets/images/image 1.png" />
               <h5>CNN</h5>
@@ -58,7 +58,7 @@ function App() {
               <Icones icones="src/assets/images/Share.svg" />
             </div>
           </div>
-          <div>
+          <div class="border border-indigo-600...">
             <div className='tweets'>
               <Profil photo="src/assets/images/Tweet-Profile-Photo.png" />
               <h5>The New York Times</h5>
