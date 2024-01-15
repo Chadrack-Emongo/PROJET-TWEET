@@ -43,27 +43,30 @@ function App() {
           </form>
           <div class="border border-indigo-600..." className='tweeter'>
             <div className='fle'>
-            <div className='tweets'>
-              <Profil photo="src/assets/images/image 1.png" />
-              {/* <h5>CNN</h5>
+              <div className='flex'>
+                <div className='tweets'>
+                  <Profil photo="src/assets/images/image 1.png" />
+                  {/* <h5>CNN</h5>
               <Icones icones="src/assets/images/Verified.svg" /> */}
-            </div>
-            {/* <div className='flex'> */}
-              <div className=''><div><h5 className='flex'>CNN <Icones icones="src/assets/images/Verified.svg" /></h5></div>
-              {/* <Icones icones="src/assets/images/Verified.svg" /> */}
+                </div>
+                {/* <div className='flex'> */}
+                <div className=''>
+                  <div><h5 className='flex'>CNN <Icones icones="src/assets/images/Verified.svg" /></h5></div>
+                  {/* <Icones icones="src/assets/images/Verified.svg" /> */}
+                </div>
               </div>
-              <div className='tweeter-1'> 
-              <Paragraphe name="President Joe Biden touted a new agreement 
+              <div className='tweeter-1'>
+                <Paragraphe name="President Joe Biden touted a new agreement 
         reached with the European Union to ease Trump-era tariffs 
         on aluminum and steel as a major breakthrough that would serve to both strengthen 
         the US steel industry and combat the global climate crisis."/>
-              <div className="flex gap-20">
-                <Icones icones="src/assets/images/Reply.svg" />
-                <Icones icones="src/assets/images/Retweet.svg" />
-                <Icones icones="src/assets/images/React.svg" />
-                <Icones icones="src/assets/images/Share.svg" />
+                <div className="flex gap-20">
+                  <Icones icones="src/assets/images/Reply.svg" />
+                  <Icones icones="src/assets/images/Retweet.svg" />
+                  <Icones icones="src/assets/images/React.svg" />
+                  <Icones icones="src/assets/images/Share.svg" />
+                </div>
               </div>
-            </div>
             </div>
           </div>
           <div class="border border-indigo-600...">
