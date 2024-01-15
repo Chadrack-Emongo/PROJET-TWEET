@@ -1,5 +1,5 @@
 export function Paragraphe(props){
     return(
-        <p> {props.name} </p>
+        <p className="paragraphe"> {props.name} </p>
     )
 }
