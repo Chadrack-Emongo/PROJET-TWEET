@@ -13,8 +13,51 @@ function App() {
   return (
     <>
       <div className='timeline'>
-        <div className='classMenu'>
-          <Icones icones="src/assets/images/Twitter.svg" />
+
+        <div>
+          <div className='classMenu'>
+            <Icones icones="src/assets/images/Twitter.svg" />
+          </div>
+          {/* <div>
+            <Icones icones="" />
+          </div>
+        <Icones icones="src/assets/images/Twitter.svg" />
+        </div> */}
+          <div className='flex'>
+            <Icones icones="src/assets/images/Home-Fill.svg" />
+            <h3>Home</h3>
+          </div>
+          <div className='flex'>
+            <Icones icones="src/assets/images/Explore.svg" />
+            <h3>Explore</h3>
+          </div>
+          <div className='flex'>
+            <Icones icones="src/assets/images/Notifications.svg" />
+            <h3>Notification</h3>
+          </div>
+          <div className='flex'>
+            <Icones icones="src/assets/images/Messages.svg" />
+            <h3>Messages</h3>
+          </div>
+          <div className='flex'>
+            <Icones icones="src/assets/images/Bookmarks.svg" />
+            <h3>Bookmarks</h3>
+          </div>
+          <div className='flex'>
+            <Icones icones="src/assets/images/Lists.svg" />
+            <h3>Lists</h3>
+          </div>
+          <div className='flex'>
+            <Icones icones="src/assets/images/Profile.svg" />
+            <h3>Profil</h3>
+          </div>
+          <div className='flex'>
+            <Icones icones="src/assets/images/More.svg" />
+            <h3>More</h3>
+          </div>
+          <div>
+            <Bouton />
+          </div>
         </div>
         <div className='timeline1'>
           <div className='header' >
@@ -94,7 +137,7 @@ function App() {
         <div className='classSeting'>
           <input type="text" />
         </div>
-      </div>
+      </div >
     </>
   )
 }
