@@ -32,7 +32,7 @@ function App() {
           </div>
         </div>
         <div className='w-1/3'>
-          <div className='flex p-4 border border-indigo-600...' >
+          <div className='flex justify-between p-4 border border-indigo-600...' >
             <h3>Home</h3>
             <Icones icones="src/assets/images/Timeline-Prop.svg" />
           </div>
@@ -42,7 +42,7 @@ function App() {
                 <Profil photo="src/assets/images/Profile-Photo.png" />
                 <textarea className="textarea" type="text" placeholder='What’s happening?' />
               </div>
-              <div className="flex gap-80">
+              <div className="p-4 flex gap-80">
                 <div className='flex gap-5'>
                   <Icones icones="src/assets/images/Media.svg" />
                   <Icones icones="src/assets/images/Gif.svg" />
