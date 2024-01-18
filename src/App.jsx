@@ -6,6 +6,7 @@ import { Icones } from './Icones'
 import { Profil } from './Profil'
 import { Bouton } from './Bouton'
 import { Paragraphe } from './Paragraphe'
+import Option from './Option'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -17,13 +18,21 @@ function App() {
         <div>
           <div className='classMenu'>
             <Icones icones="src/assets/images/Twitter.svg" />
+            <Option icones="src/assets/images/Home-Fill.svg" name="Home"/>
+            <Option icones="src/assets/images/Explore.svg" name="Explore"/>
+            <Option icones="src/assets/images/Notifications-Fill.svg" name="Notifications"/>
+            <Option icones="src/assets/images/Messages-Fill.svg" name="Messages"/>
+            <Option icones="src/assets/images/Bookmarks-Fill.svg" name="Bookmarks"/>
+            <Option icones="src/assets/images/Lists-Fill.svg" name="Listes"/>
+            <Option icones="src/assets/images/Profile-Fill.svg" name="Profile"/>
+            <Option icones="src/assets/images/More.svg" name="More"/>
           </div>
           {/* <div>
             <Icones icones="" />
           </div>
         <Icones icones="src/assets/images/Twitter.svg" />
         </div> */}
-          <div className='flex'>
+          {/* <div className='flex'>
             <Icones icones="src/assets/images/Home-Fill.svg" />
             <h3>Home</h3>
           </div>
@@ -31,10 +40,7 @@ function App() {
             <Icones icones="src/assets/images/Explore.svg" />
             <h3>Explore</h3>
           </div>
-          <div className='flex'>
-            <Icones icones="src/assets/images/Notifications.svg" />
-            <h3>Notification</h3>
-          </div>
+          <Option icones="src/assets/images/Home-Fill.svg"/>
           <div className='flex'>
             <Icones icones="src/assets/images/Messages.svg" />
             <h3>Messages</h3>
@@ -54,7 +60,7 @@ function App() {
           <div className='flex'>
             <Icones icones="src/assets/images/More.svg" />
             <h3>More</h3>
-          </div>
+          </div> */}
           <div>
             <Bouton />
           </div>
