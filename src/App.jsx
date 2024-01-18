@@ -70,7 +70,7 @@ function App() {
                   {/* <Icones icones="src/assets/images/Verified.svg" /> */}
                 </div>
               </div>
-              <div className='ml-12'>
+              <div className='ml-12 p-4'>
                 <Paragraphe name="President Joe Biden touted a new agreement 
         reached with the European Union to ease Trump-era tariffs 
         on aluminum and steel as a major breakthrough that would serve to both strengthen 
