@@ -37,7 +37,7 @@ function App() {
             <Icones icones="src/assets/images/Timeline-Prop.svg" />
           </div>
           <form action="get">
-            <div className='ml-6 mr-4 pt-9 bp-1' class="border border-indigo-600...">
+            <div className='pt-2 ml-6 mr-4 pt-9 bp-1' class="border border-indigo-600...">
               <div className='flex'>
                 <Profil photo="src/assets/images/Profile-Photo.png" />
                 <textarea className="textarea" type="text" placeholder='What’s happening?' />
