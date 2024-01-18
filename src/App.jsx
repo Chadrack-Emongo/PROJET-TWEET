@@ -18,7 +18,7 @@ function App() {
         <div className='w-1/3 flex justify-end'>
           <div className='w-1/2'>
             <div className='classMenu'>
-              <Icones icones="src/assets/images/Twitter.svg" />
+              <Option icones="src/assets/images/Twitter.svg" />
               <Option icones="src/assets/images/Home-Fill.svg" name="Home" />
               <Option icones="src/assets/images/Explore.svg" name="Explore" />
               <Option icones="src/assets/images/Notifications-Fill.svg" name="Notifications" />
