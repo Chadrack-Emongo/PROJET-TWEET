@@ -15,24 +15,23 @@ function App() {
     <>
       <div className='timeline'>
 
-        <div>
-          <div className='classMenu'>
-            <Icones icones="src/assets/images/Twitter.svg" />
-            <Option icones="src/assets/images/Home-Fill.svg" name="Home"/>
-            <Option icones="src/assets/images/Explore.svg" name="Explore"/>
-            <Option icones="src/assets/images/Notifications-Fill.svg" name="Notifications"/>
-            <Option icones="src/assets/images/Messages-Fill.svg" name="Messages"/>
-            <Option icones="src/assets/images/Bookmarks-Fill.svg" name="Bookmarks"/>
-            <Option icones="src/assets/images/Lists-Fill.svg" name="Listes"/>
-            <Option icones="src/assets/images/Profile-Fill.svg" name="Profile"/>
-            <Option icones="src/assets/images/More.svg" name="More"/>
-          </div>
-          
-          <div>
-            <Bouton />
+        <div className='w-1/3 flex justify-end'>
+          <div className='w-1/2'>
+            <div className='classMenu'>
+              <Icones icones="src/assets/images/Twitter.svg" />
+              <Option icones="src/assets/images/Home-Fill.svg" name="Home" />
+              <Option icones="src/assets/images/Explore.svg" name="Explore" />
+              <Option icones="src/assets/images/Notifications-Fill.svg" name="Notifications" />
+              <Option icones="src/assets/images/Messages-Fill.svg" name="Messages" />
+              <Option icones="src/assets/images/Bookmarks-Fill.svg" name="Bookmarks" />
+              <Option icones="src/assets/images/Lists-Fill.svg" name="Listes" />
+              <Option icones="src/assets/images/Profile-Fill.svg" name="Profile" />
+              <Option icones="src/assets/images/More.svg" name="More" />
+              <Bouton />
+            </div>
           </div>
         </div>
-        <div className='timeline1'>
+        <div className='w-1/3'>
           <div className='header' >
             <h3>Home</h3>
             <Icones icones="src/assets/images/Timeline-Prop.svg" />
@@ -107,7 +106,7 @@ function App() {
             </div>
           </div>
         </div>
-        <div className='classSeting'>
+        <div className='w-1/3 ml-5'>
           <input type="text" />
         </div>
       </div >
