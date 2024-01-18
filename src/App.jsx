@@ -56,8 +56,8 @@ function App() {
               </div>
             </div>
           </form>
-          <div class="border border-indigo-600..." className='tweeter'>
-            <div className='fle'>
+          <div class="border border-indigo-600...">
+            <div>
               <div className='flex'>
                 <div className='tweets'>
                   <Profil photo="src/assets/images/image 1.png" />
@@ -70,7 +70,7 @@ function App() {
                   {/* <Icones icones="src/assets/images/Verified.svg" /> */}
                 </div>
               </div>
-              <div className='tweeter-1'>
+              <div className='ml-12'>
                 <Paragraphe name="President Joe Biden touted a new agreement 
         reached with the European Union to ease Trump-era tariffs 
         on aluminum and steel as a major breakthrough that would serve to both strengthen 
