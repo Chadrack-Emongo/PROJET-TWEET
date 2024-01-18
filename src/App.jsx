@@ -58,7 +58,7 @@ function App() {
           </form>
           <div class="border border-indigo-600...">
             <div>
-              <div className='flex'>
+              <div className='flex p-3'>
                 <div className='tweets'>
                   <Profil photo="src/assets/images/image 1.png" />
                   {/* <h5>CNN</h5>
