@@ -32,7 +32,7 @@ function App() {
           </div>
         </div>
         <div className='w-1/3'>
-          <div className='header' >
+          <div className='p-4 border border-indigo-600...' >
             <h3>Home</h3>
             <Icones icones="src/assets/images/Timeline-Prop.svg" />
           </div>
