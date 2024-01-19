@@ -298,7 +298,9 @@ function App() {
 
         </div>
         <div className='w-1/3 ml-5'>
-          <Searchinput/>
+          <div className='w-1/2'>
+            <Searchinput />
+          </div>
         </div>
       </div >
     </>
