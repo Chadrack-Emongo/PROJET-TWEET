@@ -16,7 +16,7 @@ export default function Montweet({unTweet}) {
             <div className='ml-12 p-4 p-2'>
               <div>
                 <Paragraphe name={unTweet.text}/>
-                <Profil photo="src/assets/images/Img.png" />
+                <Profil photo={unTweet.image} />
               </div>
               <div>
                 <div className="flex gap-20">

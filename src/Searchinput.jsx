@@ -3,9 +3,9 @@ import { Icones } from './Icones'
 
 export default function Searchinput() {
   return (
-    <div className='flex bg-current h-10 rounded-3xl'>
+    <div className='flex bg-slate-800 h-10 rounded-3xl'>
       <Icones icones="src/assets/images/Search.svg"/>
-      <input className='rounded-3xl' type="text" placeholder='Search twitter' />
+      <input className='bg-slate-800 rounded-3xl' type="text" placeholder='Search twitter' />
     </div>
   )
 }
