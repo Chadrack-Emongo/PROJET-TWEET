@@ -9,6 +9,7 @@ import { Paragraphe } from './Paragraphe'
 import Option from './Option'
 import Montweet from './Montweet'
 import Nomtweet from './Nomtweet'
+import Searchinput from './Searchinput'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -297,10 +298,7 @@ function App() {
 
         </div>
         <div className='w-1/3 ml-5'>
-          <div>
-            <input type="text" />
-          </div>
-
+          <Searchinput/>
         </div>
       </div >
     </>
