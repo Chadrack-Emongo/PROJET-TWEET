@@ -15,6 +15,7 @@ import Settwit from './Settwit'
 import { Routes, Route, Link } from 'react-router-dom'
 import Profileeroute from './Profileeroute'
 import Monmap from './Monmap'
+import Contenaire3 from './Contenaire3'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -25,7 +26,7 @@ function App() {
 
         <div className='w-1/3 flex justify-end'>
           <div className='w-1/2'>
-            <div className='classMenu'>
+            <div>
               <Option icones="src/assets/images/Twitter.svg" />
               <Option icones="src/assets/images/Home-Fill.svg" name="Home" />
               <Option icones="src/assets/images/Explore.svg" name="Explore" />
@@ -35,7 +36,7 @@ function App() {
               <Option icones="src/assets/images/Lists-Fill.svg" name="Listes" />
               <Link to="Profile"> <Option icones="src/assets/images/Profile-Fill.svg" name="Profile" /></Link>
               <Option icones="src/assets/images/More.svg" name="More" />
-              <Bouton />
+              <Bouton classBouton="bg-sky-600 w-40 h-10 rounded-full font-bold" name="Tweet" />
             </div>
           </div>
         </div>
@@ -58,7 +59,8 @@ function App() {
               <Titre style="m-3 font-extrabold text-blue-500" name="Show more" />
             </div>
             <div>
-              
+              <Contenaire3/>
+
             </div>
           </div>
         </div>

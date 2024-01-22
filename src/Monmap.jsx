@@ -261,7 +261,7 @@ export default function Monmap() {
                             <Icones icones="src/assets/images/Schedule.svg" />
                         </div>
                         <div>
-                            <Bouton />
+                            <Bouton classBouton="bg-sky-600 w-20 h-10 rounded-full font-bold" name="Tweet"/>
                         </div>
                     </div>
                 </div>

@@ -1,5 +1,5 @@
 export function Bouton(props){
     return(
-        <button className="button-tweet">Tweet</button>
+        <button className={props.classBouton}>{props.name}</button>
     )
 }
