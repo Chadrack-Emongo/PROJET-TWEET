@@ -12,7 +12,7 @@ import Titre from './Titre'
 import Contenaire2 from './Contenaire2'
 import Settitle from './Settitle'
 import Settwit from './Settwit'
-import { Routes,Route, Link } from 'react-router-dom'
+import { Routes, Route, Link } from 'react-router-dom'
 import Profileeroute from './Profileeroute'
 import Monmap from './Monmap'
 
@@ -41,10 +41,10 @@ function App() {
         </div>
         <div className='w-1/3'>
           <Routes>
-                    <Route path='/' element= {<Monmap/>} />
-                    <Route path="Profile" element={<Profileeroute/>} />
-                  </Routes>
-          
+            <Route path='/' element={<Monmap />} />
+            <Route path="Profile" element={<Profileeroute />} />
+          </Routes>
+
         </div>
         <div className='w-1/3 ml-5'>
           <div className='w-1/2'>
@@ -58,12 +58,13 @@ function App() {
               <Titre style="m-3 font-extrabold text-blue-500" name="Show more" />
             </div>
             <div>
+              
             </div>
           </div>
         </div>
       </div >
 
-    
+
 
     </>
   )

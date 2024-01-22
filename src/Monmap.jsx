@@ -3,6 +3,7 @@ import Montweet from './Montweet'
 import { Profil } from './Profil'
 import { Bouton } from './Bouton'
 import { Icones } from './Icones'
+import Imagetweet from './Imagetweet'
 
 export default function Monmap() {
     let tableau = [

@@ -1,5 +1,5 @@
 export function Profil({photo}){
     return(
-        <img src={photo} alt="image" />
+        <img className={photo} src={photo} alt="image" />
     )
 }

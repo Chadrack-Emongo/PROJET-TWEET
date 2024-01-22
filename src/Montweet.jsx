@@ -3,6 +3,7 @@ import { Profil } from './Profil'
 import { Paragraphe } from './Paragraphe'
 import { Icones } from './Icones'
 import Nomtweet from './Nomtweet'
+import Imagetweet from './Imagetweet'
 
 
 export default function Montweet({unTweet}) {
@@ -16,7 +17,7 @@ export default function Montweet({unTweet}) {
             <div className='ml-12 p-4 p-2'>
               <div>
                 <Paragraphe name={unTweet.text}/>
-                <Profil photo={unTweet.image} />
+                <Profil  photo={unTweet.image} />
               </div>
               <div>
                 <div className="flex gap-20">
