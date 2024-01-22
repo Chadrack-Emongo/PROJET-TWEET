@@ -16,6 +16,9 @@ import { Routes, Route, Link } from 'react-router-dom'
 import Profileeroute from './Profileeroute'
 import Monmap from './Monmap'
 import Contenaire3 from './Contenaire3'
+import Seting from './Seting'
+import Seting2 from './Seting2'
+import Seting3 from './Seting3'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -48,7 +51,7 @@ function App() {
 
         </div>
         <div className='w-1/3 ml-5'>
-          <div className='w-1/2'>
+          <div className='w-/2'>
             <Searchinput />
             <div className='bg-slate-800 rounded-xl mt-5'>
               <Contenaire2 />
@@ -58,9 +61,12 @@ function App() {
               <Settwit />
               <Titre style="m-3 font-extrabold text-blue-500" name="Show more" />
             </div>
-            <div>
+            <div className='bg-slate-800 rounded-xl mt-5'>
               <Contenaire3/>
-
+              <Seting/>
+              <Seting2/>
+              <Seting3/>
+              <Titre style="m-3 font-extrabold text-blue-500" name="Show more" />
             </div>
           </div>
         </div>
