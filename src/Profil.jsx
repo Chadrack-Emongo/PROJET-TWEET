@@ -1,5 +1,5 @@
-export function Profil({photo}){
+export function Profil(props){
     return(
-        <img className={photo} src={photo} alt="image" />
+        <img className={props.style} src={props.photo} alt="image" />
     )
 }

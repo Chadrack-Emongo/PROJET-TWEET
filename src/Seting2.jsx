@@ -7,7 +7,7 @@ import { Bouton } from './Bouton'
 
 export default function Seting2() {
     return (
-        <div className='flex p-4 justify-between '>
+        <div className='flex p-4 justify-between hover:bg-slate-600'>
             <div className='flex'>
                 <Profil photo="src/assets/images/image 1.png" />
                 <div className=''>
@@ -19,7 +19,7 @@ export default function Seting2() {
                 </div>
             </div>
             <div>
-                <Bouton classBouton="w-20 h-10 rounded-full font-bold text-black bg-white" name="Follow" />
+                <Bouton classBouton="w-20 h-10 rounded-full font-bold text-black bg-white hover:bg-blue-600" name="Follow" />
             </div>
 
         </div>

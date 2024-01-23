@@ -1,16 +1,10 @@
 import { useState } from 'react'
 import './App.css'
-import { Icones } from './Icones'
-import { Profil } from './Profil'
 import { Bouton } from './Bouton'
-import { Paragraphe } from './Paragraphe'
 import Option from './Option'
-import Montweet from './Montweet'
-import Nomtweet from './Nomtweet'
 import Searchinput from './Searchinput'
 import Titre from './Titre'
 import Contenaire2 from './Contenaire2'
-import Settitle from './Settitle'
 import Settwit from './Settwit'
 import { Routes, Route, Link } from 'react-router-dom'
 import Profileeroute from './Profileeroute'
@@ -39,7 +33,7 @@ function App() {
               <Option icones="src/assets/images/Lists-Fill.svg" name="Listes" />
               <Link to="Profile"> <Option icones="src/assets/images/Profile-Fill.svg" name="Profile" /></Link>
               <Option icones="src/assets/images/More.svg" name="More" />
-              <Bouton classBouton="bg-sky-600 w-40 h-10 rounded-full font-bold" name="Tweet" />
+              <Bouton classBouton="bg-sky-600 w-40 h-10 rounded-full font-bold hover:bg-blue-600" name="Tweet" />
             </div>
           </div>
         </div>
@@ -51,7 +45,7 @@ function App() {
 
         </div>
         <div className='w-1/3 ml-5'>
-          <div className='w-/2'>
+          <div className='w-3/5'>
             <Searchinput />
             <div className='bg-slate-800 rounded-xl mt-5'>
               <Contenaire2 />
