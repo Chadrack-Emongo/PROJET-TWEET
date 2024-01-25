@@ -4,7 +4,7 @@ import Titre from './Titre'
 
 export default function Contenaire2() {
     return (
-        <div className='p-4'>
+        <div className='p-2'>
             <div className='flex justify-between'>
                 <Titre style="font-extrabold" name="Trends for you" />
                 <Icones icones="src/assets/images/Settings.svg" />

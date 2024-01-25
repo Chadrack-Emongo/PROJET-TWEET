@@ -6,7 +6,7 @@ import { Icones } from './Icones'
 export default function Settwit(props) {
     return (
         <div>
-            <div className='flex justify-between p-4'>
+            <div className='flex justify-between p-2'>
                 <div className=''>
                     <Settitle style="text-stone-300" name="Trending in Turkey" />
                     <Titre style="font-extrabold" name="#SQUID" />

@@ -7,7 +7,7 @@ import { Bouton } from './Bouton'
 
 export default function Seting2() {
     return (
-        <div className='flex p-4 justify-between hover:bg-slate-600'>
+        <div className='flex p-2 justify-between hover:bg-slate-600'>
             <div className='flex'>
                 <Profil photo="src/assets/images/image 1.png" />
                 <div className=''>
