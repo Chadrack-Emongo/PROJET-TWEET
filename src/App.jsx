@@ -26,13 +26,13 @@ function App() {
             <div className='w-3/5'>
               <div>
                 <Option icones="src/assets/images/Twitter.svg" />
-                <Option icones="src/assets/images/Home-Fill.svg" name="Home" />
+                <Option icones="src/assets/images/Home.svg" name="Home" />
                 <Option icones="src/assets/images/Explore.svg" name="Explore" />
-                <Option icones="src/assets/images/Notifications-Fill.svg" name="Notifications" />
-                <Option icones="src/assets/images/Messages-Fill.svg" name="Messages" />
-                <Option icones="src/assets/images/Bookmarks-Fill.svg" name="Bookmarks" />
-                <Option icones="src/assets/images/Lists-Fill.svg" name="Listes" />
-                <Link to="Profile"> <Option icones="src/assets/images/Profile-Fill.svg" name="Profile" /></Link>
+                <Option icones="src/assets/images/Notifications.svg" name="Notifications" />
+                <Option icones="src/assets/images/Messages.svg" name="Messages" />
+                <Option icones="src/assets/images/Bookmarks.svg" name="Bookmarks" />
+                <Option icones="src/assets/images/Lists.svg" name="Listes" />
+                <Link to="Profile"> <Option icones="src/assets/images/Profile.svg" name="Profile" /></Link>
                 <Option icones="src/assets/images/More.svg" name="More" />
                 <Bouton classBouton="bg-sky-600 w-40 h-10 rounded-full font-bold hover:bg-blue-600" name="Tweet" />
               </div>

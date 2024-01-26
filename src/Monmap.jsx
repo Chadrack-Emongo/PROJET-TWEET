@@ -287,7 +287,7 @@ export default function Monmap() {
                 </div>
             </form>
             {
-                tableau.map((tab) => (<Montweet unTweet={tab} />))
+                tableau.map((tab) => (<Montweet unTweet={tab} numberReact="45"/>))
             }
 
         </div>
