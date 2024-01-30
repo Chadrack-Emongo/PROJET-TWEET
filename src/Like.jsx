@@ -10,7 +10,7 @@ export default function Like({ }) {
     }
     const likeIcone = imageClick ? "src/assets/images/icons8-costume-de-coeur-emoji-96.png" : "src/assets/images/React.svg"
     return (
-        <div>
+        <div className='flex'>
             <div className='rounded-full w-6'>
                 <img onClick={handleclick} src={likeIcone} alt='' />
             </div>
