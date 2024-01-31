@@ -14,6 +14,7 @@ import Seting from './Seting'
 import Seting2 from './Seting2'
 import Seting3 from './Seting3'
 import { Profil } from './Profil'
+import Nomtweet from './Nomtweet'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -37,8 +38,11 @@ function App() {
                 <Option icones="src/assets/images/More.svg" name="More" />
                 <Bouton classBouton="bg-sky-600 w-48 h-10 rounded-full font-bold hover:bg-blue-600" name="Post" />
               </div>
-              <div>
+              <div className='flex'>
                 <Profil style="rounded-full h-12" photo="src/assets/images/chadrack.png" />
+                <div>
+                  <Nomtweet name="Chadrack Emongo" />
+                </div>
               </div>
             </div>
           </div>
